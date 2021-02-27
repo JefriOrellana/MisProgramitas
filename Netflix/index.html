@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Netflix</title>
+    <link rel="stylesheet" href="css/estilos.css"><!--Estilos en archivos esteirores-->
+    <link rel="shortcut icon" href="https://assets.nflxext.com/us/ffe/siteui/common/icons/nficon2016.ico" type="image/x-icon">
+    <!--Dentro del Style solo podemos tener css selectores-->
+    <style>
+        /*
+        Piches comentarios perros. 
+        */
+        body{
+            background-image: url(img/FondoNetflix.jpg);
+            background-repeat: no-repeat;/*Para que se repita en x o l o no repeir*/
+            background-size: cover; /* */
+            background-position: center center center;/*Centrar  */
+            background-attachment: fixed;/*siempre va estar la imagen fija o abarca toda la pantalla*/
+            margin: 0;
+
+        }
+
+    </style>
+</head>
+<body style="background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); background-image:url(img/FondoNetflix.jpg) ;"><!--Mi estilo en linea-->
+    <div id = "contenido"><!--Para horganizar mi contenido-->
+        <img id = "logo" src="img/netflix.png" alt="">
+        <section id = "formulario">
+            <h1>Sing in</h1>
+            <input class = "control" type="text" placeholder="Email or phone number">
+            <input class = "control" type="password" placeholder="Password">
+            <input class = "control boton" type="button" value="Sign in" >
+            <label><input type="checkbox">Remember me</label>
+            <a href="#" id ="help-link" >Need help</a><br>
+            <div><img id = "logo-facebook"src="https://assets.nflxext.com/ffe/siteui/login/images/FB-f-Logo__blue_57.png" alt="">
+                <a href="#" id= "IS-Facebook">Iniciar sesión con Facebook</a></div>
+            
+
+        </section>
+    </div>
+    
+</body>
+</html>
